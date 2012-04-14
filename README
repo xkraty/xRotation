@@ -1,0 +1,7 @@
+Carousel-like slideshows with different sized images
+
+Example:
+
+$(window).load(function() {
+	$('#element').xRotation();
+});
