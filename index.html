@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>xRotation jQuery Plugin</title>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/xRotation.js"></script>	
+	<link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<script>
+$(window).load(function() {
+	$('#element').xRotation({
+		'timer': 3000,
+		'effect': 'fade',
+		'loadBar': 'top',
+		'controls': 'top-center'
+	});
+});
+</script>
+<h1>xRotation jQuery Plugin</h1>
+<div class="element" id="element">
+	<img src="img/image-1.jpg" alt="Image 1" />
+	<img src="img/image-2.jpg" alt="Image 2" />
+	<img src="img/image-3.jpg" alt="Image 3" />
+	<img src="img/image-4.jpg" alt="Image 4" />
+	<img src="img/image-5.jpg" alt="Image 5" />
+	<div>This is a div, it can contains <b>HTML</b> tags and it will fit in the xRotation area and i'll be centered</div>
+	<img src="img/image-6.jpg" alt="Image 6" />
+	<img src="img/image-7.jpg" alt="Image 7" />
+	<img src="img/image-8.png" alt="Image 8" />
+</div>
+<div id="console"></div>
+</body>
+</html>
